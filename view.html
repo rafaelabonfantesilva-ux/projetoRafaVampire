@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Inovação Tecnológica - 1º Ano</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f8;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        /* CABEÇALHO */
+
+        header {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            margin: 5px;
+        }
+
+        /* MENU */
+
+        nav {
+            background-color: #111;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00d4ff;
+        }
+
+        /* SEÇÕES */
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #167d9a;
+            margin-bottom: 30px;
+            font-size: 32px;
+        }
+
+        /* INÍCIO */
+
+        .inicio {
+            display: flex;
+            align-items: center;
+            gap: 35px;
+        }
+
+        .inicio img {
+            width: 45%;
+            border-radius: 15px;
+        }
+
+        .inicio-texto {
+            width: 55%;
+        }
+
+        .inicio-texto h2 {
+            text-align: left;
+        }
+
+        /* CARDS */
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #167d9a;
+            margin-bottom: 10px;
+        }
+
+        /* ATIVIDADES */
+
+        .atividade {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-left: 6px solid #00a8cc;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        .atividade h3 {
+            color: #167d9a;
+            margin-bottom: 10px;
+        }
+
+        /* PROJETO */
+
+        .projeto {
+            background: linear-gradient(135deg, #16222a, #3a6073);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .projeto h2 {
+            color: white;
+        }
+
+        .botao {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #00a8cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .botao:hover {
+            background-color: #007d99;
+        }
+
+        /* REFLEXÃO */
+
+        .reflexao {
+            background-color: #e7f8fc;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .reflexao p {
+            font-size: 19px;
+        }
+
+        /* RODAPÉ */
+
+        footer {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+
+        /* RESPONSIVIDADE */
+
+        @media (max-width: 700px) {
+
+            header h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                display: block;
+                margin: 8px;
+            }
+
+            .inicio {
+                flex-direction: column;
+            }
+
+            .inicio img,
+            .inicio-texto {
+                width: 100%;
+            }
+
+            .inicio-texto h2 {
+                text-align: center;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- CABEÇALHO -->
+
+    <header>
+
+        <h1>the vampire diaries</h1>
+
+        <p></p>
+
+        <p>
+           
+        </p>
+
+    </header>
+
+
+    <!-- MENU -->
+
+    <nav>
+
+        <a href="#inicio">Início</a>
+
+        <a href="#tecnologias">Tecnologias</a>
+
+        <a href="#inovacao">Inovação</a>
+
+        <a href="#atividades">Atividades</a>
+
+        <a href="#projeto">Projeto</a>
+
+    </nav>
+
+
+    <!-- INÍCIO -->
+
+    <section id="inicio">
+
+        <div class="inicio">
+
+            <img
+                src="/home/escola/Downloads/rafa site/the-vampire-diaries-5a-temporada_t74206_2.webp"
+                alt="Tecnologia e inovação"
+            >
+
+            <div class="inicio-texto">
+
+                <h2>The Vampire Diaries</h2>
+
+                <p>
+                    
+                  
+                </p>
+
+                <br>
+
+                <p>
+                    
+
+                    _The Vampire Diaries_ acompanha Elena Gilbert, uma jovem que vive em Mystic Falls e conhece os irmãos vampiros Stefan e Damon Salvatore. Ao longo da série, eles enfrentam vampiros, bruxas, lobisomens e vários perigos sobrenaturais, enquanto vivem romances, perdas e conflitos. A história também envolve Katherine Pierce, uma vampira ligada ao passado dos irmãos e de Elena.
+                </p>
+
+                <br>
+
+                <p>
+                    
+                </p>
+
+                <br>
+
+                <p>
+                    
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TECNOLOGIAS -->
+
+    <section id="tecnologias">
+
+        <h2>protagonistas</h2>
+
+        <div class="cards">
+
+
+            <div class="card">
+
+                <img
+                    src="/home/escola/Downloads/rafa site/capa-22-910x512.jpg"
+                    alt="Inteligência Artificial"
+                >
+
+                <h3>Damon Salvatore</h3>
+
+                <p>
+                    
+
+                    Damon Salvatore é um dos protagonistas de _The Vampire Diaries_. Ele é um vampiro poderoso, irmão mais velho de Stefan, conhecido por ser sarcástico, impulsivo e inicialmente cruel. Ao longo da série, ele muda e se apaixona por Elena Gilbert.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <img
+                    src="/home/escola/Downloads/rafa site/Elena_Giblert.jpeg"
+                    alt="Robótica"
+                >
+
+                <h3>Elena Gilbert</h3>
+
+                <p>
+                   
+Elena Gilbert é a protagonista de _The Vampire Diaries_. Ela começa como humana, mas se torna vampira e descobre ser uma doppelgänger de Katherine Pierce. Ao longo da série, vive um romance com Stefan e Damon Salvatore e enfrenta diversos desafios sobrenaturais.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <img
+                    src="/home/escola/Downloads/rafa site/images.jpeg"
+                    alt="Internet das Coisas"
+                >
+
+                <h3>Stefan Salvatore</h3>
+
+                <p>
+                    Stefan Salvatore é um dos protagonistas de _The Vampire Diaries_. Ele é um vampiro e irmão mais novo de Damon. É conhecido por ser gentil e protetor, mas também enfrenta seu lado sombrio. Ele se apaixona por Elena Gilbert e vive muitos conflitos ao longo da série.
+
+            </div>
+
+
+            <div class="card">
+
+                <img
+                    src="/home/escola/Downloads/rafa site/KatherineS2TVD.webp"
+                    alt="Realidade Virtual"
+                >
+
+                <h3>Katherine Pierce</h3>
+
+                <p>
+                    Katherine Pierce é uma vampira e uma das principais antagonistas de _The Vampire Diaries_. Ela é a duplicata de Elena, conhecida por ser manipuladora, inteligente e determinada a sobreviver. Teve uma relação com os irmãos Stefan e Damon Salvatore.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+            <h2>curiosidades</h2>
+
+            <p>
+            </p>
+
+            <br>
+
+            <p>
+               
+ - A série teve **8 temporadas** e **171 episódios**.
+-  **Nina Dobrev** interpretou Elena Gilbert e também Katherine Pierce, além de outras versões das personagens.
+-  Elena teve relacionamentos com **Stefan e Damon**, formando um dos principais triângulos amorosos da série.
+-  **Damon e Stefan** são irmãos e foram transformados em vampiros em **1864**.
+-  **Bonnie Bennett** é uma bruxa descendente de uma longa linhagem de bruxas.
+-  **Tyler Lockwood** é um lobisomem e pertence a uma família com essa maldição.
+-  **Klaus, Elijah e Rebekah** fazem parte da família dos **Vampiros Originais**.
+-  A série foi baseada nos livros _The Vampire Diaries_, escritos por **L. J. Smith**.
+-  A cidade fictícia de **Mystic Falls** é o principal cenário da história e reúne praticamente todos os acontecimentos sobrenaturais.
+            </p>
+
+            <br>
+
+            <p>
+               
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ATIVIDADES -->
+
+    <section id="atividades">
+
+        <h2>outros personagens</h2>
+
+
+        <div class="atividade">
+
+            <h3>bonnie bennett</h3>
+
+            <p>
+                bruxa poderosa, melhor amiga de elena.
+            </p>
+
+        </div>
+
+
+        <div class="atividade">
+
+            <h3>caroline forbes</h3>
+
+            <p>
+                amiga de Elena que se torna vampira e fica muito importante na história.
+            </p>
+
+        </div>
+
+
+        <div class="atividade">
+
+            <h3>jeremy gilbert</h3>
+
+            <p>
+                irmao mais novo de elena, envolvido no mundo sobrenatural.
+            </p>
+
+        </div>
+
+
+        <div class="atividade">
+
+            <h3>alaric saltzman</h3>
+
+            <p>
+                professor e caçador de vampiros, muito proximo da familia gilbert.
+            </p>
+
+        </div>
+
+
+        <div class="atividade">
+
+            <h3>matt donovan</h3>
+
+            <p>
+                um dos unicos personagens que permanece humano.
+            </p>
+
+        </div>
+
+
+        <div class="atividade">
+
+            <h3>tyler lockwood </h3>
+
+            <p>
+               amigo de matt que se torna lobisomem
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJETO FINAL -->
+
+    <section id="projeto">
+
+        <div class="projeto">
+
+            <h2>onde assistir</h2>
+
+            <p>
+               
+            </p>
+
+            <br>
+
+            <p>
+                
+
+            <br>
+
+            <p>
+                
+O ChatGPT disse:
+No Brasil, The Vampire Diaries (Diários de um Vampiro) está disponível atualmente em:
+
+📺 Prime Video — as 8 temporadas aparecem no catálogo. 
+P
+Prime Video
+
+📺 HBO Max — também aparece como opção de streaming no Brasil. 
+J
+JustWatch
+
+🍎 Apple TV — a série também está listada por lá. 
+T
+tv.apple.com
+
+A disponibilidade pode mudar, então vale conferir no aplicativo antes de assinar.
+
+
+
+            </p>
+
+            <a href="#inicio" class="botao">
+                Voltar ao início
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <p>
+            🚀 Inovação Tecnológica – 1º Ano do Ensino Médio
+        </p>
+
+        <p>
+            Criar. Experimentar. Inovar. Transformar.
+        </p>
+
+        <br>
+
+        <p>
+            © 2026 - Projeto Educacional
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
